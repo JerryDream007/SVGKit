@@ -57,7 +57,8 @@
 
 -(SVGKSource *)sourceFromWeb
 {
-	return [SVGKSourceURL sourceFromURL:self.originalURL];
+    return [SVGKSourceURL sourceFromURL:[NSURL URLWithString:@"https://raw.githubusercontent.com/Hxmic/cdn/master/badge.svg"]];
+//	return [SVGKSourceURL sourceFromURL:self.originalURL];
 }
 
 -(NSString *)savedBitmapFilename

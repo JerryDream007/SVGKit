@@ -152,6 +152,7 @@
 		66E862A11688BA510059C9C4 /* uk-only.svg in Resources */ = {isa = PBXBuildFile; fileRef = 66E8628C1688BA510059C9C4 /* uk-only.svg */; };
 		66E862A21688BA510059C9C4 /* voies.svg in Resources */ = {isa = PBXBuildFile; fileRef = 66E8628D1688BA510059C9C4 /* voies.svg */; };
 		66F33DCD182FDE50004464AC /* map-alaska-onlysimple.svg in Resources */ = {isa = PBXBuildFile; fileRef = 66F33DCC182FDE50004464AC /* map-alaska-onlysimple.svg */; };
+		6F89526A25E50D4D00A29450 /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F89526925E50D4D00A29450 /* UIView+Utility.m */; };
 		8805045B1AA624F20089554C /* radial-gradient-opacity.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8805045A1AA624F20089554C /* radial-gradient-opacity.svg */; };
 		9ED79A21179D83580048AA5B /* radialGradientTest.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9ED79A20179D83580048AA5B /* radialGradientTest.svg */; };
 		BD15857C199909B800461AA5 /* Coins.svg in Resources */ = {isa = PBXBuildFile; fileRef = BD15857B199909B800461AA5 /* Coins.svg */; };
@@ -164,8 +165,6 @@
 		D0B21B552016BD8A00974D0A /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B21B542016BD8A00974D0A /* heart.png */; };
 		D0D29C9220EC44080003CE47 /* M-to-S-to-T.svg in Resources */ = {isa = PBXBuildFile; fileRef = D0D29C9120EC44080003CE47 /* M-to-S-to-T.svg */; };
 		D0D29C9420EC441F0003CE47 /* M-to-S-to-T.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D29C9320EC441F0003CE47 /* M-to-S-to-T.png */; };
-		FA5DF7261C434D54005CF231 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5DF7241C434C58005CF231 /* CocoaLumberjack.framework */; };
-		FA5DF7271C434D54005CF231 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA5DF7241C434C58005CF231 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -249,7 +248,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				32AF7BC021738A0300142396 /* SVGKit.framework in Embed Frameworks */,
-				FA5DF7271C434D54005CF231 /* CocoaLumberjack.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +405,8 @@
 		66E8628C1688BA510059C9C4 /* uk-only.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "uk-only.svg"; sourceTree = "<group>"; };
 		66E8628D1688BA510059C9C4 /* voies.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = voies.svg; sourceTree = "<group>"; };
 		66F33DCC182FDE50004464AC /* map-alaska-onlysimple.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "map-alaska-onlysimple.svg"; sourceTree = "<group>"; };
+		6F89526825E50D4D00A29450 /* UIView+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
+		6F89526925E50D4D00A29450 /* UIView+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
 		8805045A1AA624F20089554C /* radial-gradient-opacity.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "radial-gradient-opacity.svg"; sourceTree = "<group>"; };
 		9ED79A20179D83580048AA5B /* radialGradientTest.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = radialGradientTest.svg; sourceTree = "<group>"; };
 		BD15857B199909B800461AA5 /* Coins.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Coins.svg; sourceTree = "<group>"; };
@@ -434,7 +434,6 @@
 				32AF7BBE217389FD00142396 /* SVGKit.framework in Frameworks */,
 				6661A77D1698BBE20061E349 /* CoreText.framework in Frameworks */,
 				6649E10F1617578500AFE92A /* libxml2.dylib in Frameworks */,
-				FA5DF7261C434D54005CF231 /* CocoaLumberjack.framework in Frameworks */,
 				6649E0AD1617479200AFE92A /* QuartzCore.framework in Frameworks */,
 				661A0DCF161727CF008D5FBE /* UIKit.framework in Frameworks */,
 				661A0DD1161727CF008D5FBE /* Foundation.framework in Frameworks */,
@@ -646,6 +645,8 @@
 				661EEA6F1ACC2E31007176B0 /* VCMainMenuViewController.m */,
 				661EEA401ACC02AF007176B0 /* SB~iphone.storyboard */,
 				32D42244217AED3900CFD064 /* LaunchScreen.storyboard */,
+				6F89526825E50D4D00A29450 /* UIView+Utility.h */,
+				6F89526925E50D4D00A29450 /* UIView+Utility.m */,
 			);
 			name = "Demo-iOS";
 			path = "SVGKitLibrary/Demo-iOS";
@@ -997,6 +998,7 @@
 				661EEA701ACC2E31007176B0 /* VCMainMenuViewController.m in Sources */,
 				661EEA4B1ACC140F007176B0 /* SampleFileInfo.m in Sources */,
 				66E8626E1688BA0B0059C9C4 /* DetailViewController.m in Sources */,
+				6F89526A25E50D4D00A29450 /* UIView+Utility.m in Sources */,
 				661EEA481ACC0667007176B0 /* VCGridOfImagesViewController.m in Sources */,
 				66E862741688BA0B0059C9C4 /* main.m in Sources */,
 				66E862751688BA0B0059C9C4 /* MasterViewController.m in Sources */,
@@ -1176,10 +1178,7 @@
 		661A0DF5161727D0008D5FBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/3rd-party-frameworks/CocoaLumberjack-2.2.0/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/Demo-iOS/Demo-iOS-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1201,10 +1200,7 @@
 		661A0DF6161727D0008D5FBE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/3rd-party-frameworks/CocoaLumberjack-2.2.0/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/Demo-iOS/Demo-iOS-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
