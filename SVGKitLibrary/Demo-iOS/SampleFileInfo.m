@@ -57,7 +57,9 @@
 
 -(SVGKSource *)sourceFromWeb
 {
-	return [SVGKSourceURL sourceFromURL:self.originalURL];
+    return [SVGKSourceURL sourceFromURL:[NSURL URLWithString:@"https://raw.githubusercontent.com/Hxmic/cdn/master/badge.svg"]];
+//    return [SVGKSourceURL sourceFromURL:[NSURL URLWithString:@"https://s.qunarzz.com/test_color_hello/font/0.0.5/9106_yo-niujiaodayieb09-f.svg"]];
+//	return [SVGKSourceURL sourceFromURL:self.originalURL];
 }
 
 -(NSString *)savedBitmapFilename

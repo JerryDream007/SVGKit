@@ -218,18 +218,18 @@
 			remoteGlobalIDString = 825CDADC1BDA4D38003C1C12;
 			remoteInfo = "SVGKitFramework-tvOSTests";
 		};
-		6649E1091617574700AFE92A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6649E1021617574600AFE92A /* SVGKit-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6639618E16145D0400E58CCA;
-			remoteInfo = "SVGKit-iOS";
-		};
 		66E785A8171A1208001EF59D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6649E1021617574600AFE92A /* SVGKit-iOS.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 6639618D16145D0400E58CCA;
+			remoteInfo = "SVGKit-iOS";
+		};
+		6F89529E25E527F100A29450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6649E1021617574600AFE92A /* SVGKit-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6639618E16145D0400E58CCA;
 			remoteInfo = "SVGKit-iOS";
 		};
 		E203AF8F1A0AC14F000DE028 /* PBXContainerItemProxy */ = {
@@ -606,6 +606,7 @@
 		6649E1031617574600AFE92A /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				6F89529F25E527F100A29450 /* libSVGKit-iOS.2.1.0.a */,
 				E203AF901A0AC14F000DE028 /* SVGKit-iOS Tests.xctest */,
 				529DADF11C415FF00069B076 /* SVGKit.framework */,
 				529DADF31C415FF00069B076 /* SVGKitFramework-iOSTests.xctest */,
@@ -758,6 +759,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 661A0DBF161727CF008D5FBE;
@@ -817,6 +819,13 @@
 			fileType = wrapper.cfbundle;
 			path = "SVGKitFramework-tvOSTests.xctest";
 			remoteRef = 529DADF61C415FF00069B076 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F89529F25E527F100A29450 /* libSVGKit-iOS.2.1.0.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSVGKit-iOS.2.1.0.a";
+			remoteRef = 6F89529E25E527F100A29450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		E203AF901A0AC14F000DE028 /* SVGKit-iOS Tests.xctest */ = {
@@ -1152,7 +1161,7 @@
 					"calayer-exporter",
 				);
 				INFOPLIST_FILE = "SVGKitLibrary/Demo-iOS/Demo-iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -1175,7 +1184,7 @@
 					"calayer-exporter",
 				);
 				INFOPLIST_FILE = "SVGKitLibrary/Demo-iOS/Demo-iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
